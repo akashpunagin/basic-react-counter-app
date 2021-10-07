@@ -8,7 +8,7 @@ class Counter extends React.Component {
   }
 
   componentWillUnmount() {
-    console.log("Counter ", this.props.counter.id, " unmounted");
+    console.log("Counter ", this.props.counter.id, " unmounted.");
   }
 
   render() {
